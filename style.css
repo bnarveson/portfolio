@@ -18,11 +18,28 @@ footer {
     width: 100%;
     text-align: center;
     padding: 15px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #0a083d;
+    color: #f7fba0;
 }
 footer div {margin-top: -7px;
 font-size: 80%}
 .carousel-caption {color: #000000; }
 #myCarousel img {}
 ul {list-style-type: none;}
+.navbar {background-color: #0a083d;}
+footer a {color: #ccd061;}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 120%;
+    }
+    h1,
+    h3 {
+        font-size: 190%;
+    }
+    h4 {
+        font-size: 100%;
+    }
+    p {font-size: 150%;}
+    ul {font-size: 150%;}
+}
