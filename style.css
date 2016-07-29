@@ -79,6 +79,12 @@ footer a {
     color: #ccd061;
 }
 
+@media only screen and (max-width: 707px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     body {
         font-size: 120%;
