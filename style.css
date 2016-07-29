@@ -9,6 +9,7 @@ body {
     padding-top: 50px;
     /* Set margin bottom allow for footer height */
     margin-bottom: 50px;
+    font-family: Candara, Geneva, sans-serif;
 }
 
 footer {
@@ -22,9 +23,30 @@ footer {
     color: #f7fba0;
 }
 
+section {
+    background-color: #525092;
+    color: #fdfed9
+}
+
+.links a:link {
+    color: #d7da7f;
+}
+
+.links a:visited {
+    color: #8b8f27;
+}
+
+.links a:hover {
+    color: #ffffff;
+}
+
 footer div {
     margin-top: -7px;
     font-size: 80%
+}
+
+:target {
+    padding-top: 90px;
 }
 
 .carousel-caption {
@@ -34,10 +56,17 @@ footer div {
 .carousel-inner>.item>a>img {
     display: inline;
 }
+
 .carousel-caption {
     position: static;
 }
-.carousel-indicators {position: relative; top: 500px; background-color: #0a083d}
+
+.carousel-indicators {
+    position: relative;
+    top: 500px;
+    background-color: #0a083d
+}
+
 ul {
     list-style-type: none;
 }
